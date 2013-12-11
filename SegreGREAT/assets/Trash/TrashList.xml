@@ -1,0 +1,100 @@
+<list>
+	<trash name = "glass bottle" type = "recyclable">
+		<speed value = "9"/>
+		<score value = "13"/>
+		<states>
+			<state name = "default" dir = "rec_glass"/>
+			<state name = "pressed" dir = "rec_glass_pressed"/>
+		</states>
+	</trash>
+	<trash name = "tin can" type = "recyclable">
+		<speed value = "5"/>
+		<score value = "10"/>
+		<states>
+			<state name = "default" dir = "rec_can"/>
+			<state name = "pressed" dir = "rec_can_pressed"/>
+			<state name = "crushed" dir = "rec_can_crushed"/>
+			<state name = "crushed_pressed" dir = "rec_can_crushed_pressed"/>
+		</states>
+	</trash>
+	<trash name = "apple" type = "biodegradable">
+		<speed value = "5"/>
+		<score value = "10"/>
+		<states>
+			<state name = "default" dir = "bio_apple"/>
+			<state name = "pressed" dir = "bio_apple_pressed"/>
+		</states>
+	</trash>
+	<trash name = "banana" type = "biodegradable">
+		<speed value = "5"/>
+		<score value = "10"/>
+		<states>
+			<state name = "default" dir = "bio_banana"/>
+			<state name = "pressed" dir = "bio_banana_pressed"/>
+		</states>
+	</trash>
+	<trash name = "grass" type = "biodegradable">
+		<speed value = "5"/>
+		<score value = "10"/>
+		<states>
+			<state name = "default" dir = "bio_grass"/>
+			<state name = "pressed" dir = "bio_grass_pressed"/>
+		</states>
+	</trash>
+	<trash name = "paper" type = "biodegradable">
+		<speed value = "5"/>
+		<score value = "10"/>
+		<states>
+			<state name = "default" dir = "bio_paper"/>
+			<state name = "pressed" dir = "bio_paper_pressed"/>
+		</states>
+	</trash>
+	<trash name = "pencil" type = "biodegradable">
+		<speed value = "5"/>
+		<score value = "10"/>
+		<states>
+			<state name = "default" dir = "bio_pencil"/>
+			<state name = "pressed" dir = "bio_pencil_pressed"/>
+		</states>
+	</trash>
+	<trash name = "biodegradable plastic" type = "biodegradable">
+		<speed value = "5"/>
+		<score value = "10"/>
+		<states>
+			<state name = "default" dir = "bio_plastic"/>
+			<state name = "pressed" dir = "bio_plastic_pressed"/>
+		</states>
+	</trash>
+	<trash name = "battery" type = "non-biodegradable">
+		<speed value = "5"/>
+		<score value = "10"/>
+		<states>
+			<state name = "default" dir = "non_battery"/>
+			<state name = "pressed" dir = "non_battery_pressed"/>
+		</states>
+	</trash>
+	<trash name = "boots" type = "non-biodegradable">
+		<speed value = "5"/>
+		<score value = "10"/>
+		<states>
+			<state name = "default" dir = "non_boots"/>
+			<state name = "pressed" dir = "non_boots_pressed"/>
+		</states>
+	</trash>
+	<trash name = "plastic cup" type = "recyclable">
+		<speed value = "5"/>
+		<score value = "10"/>
+		<states>
+			<state name = "default" dir = "rec_onecup"/>
+			<state name = "pressed" dir = "rec_onecup_click"/>
+			<state name = "default" dir = "rec_twocup"/>
+			<state name = "pressed" dir = "rec_twocup_click"/>
+			<state name = "default" dir = "rec_threecup"/>
+			<state name = "pressed" dir = "rec_threecup_click"/>
+			<state name = "default" dir = "rec_fourcup"/>
+			<state name = "pressed" dir = "rec_fourcup_click"/>
+			<state name = "default" dir = "rec_fivecup"/>
+			<state name = "pressed" dir = "rec_fivecup_click"/>
+		</states>
+	</trash>
+</list>

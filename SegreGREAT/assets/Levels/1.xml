@@ -1,0 +1,13 @@
+<level>
+	<number value = "1"/>
+	<unlocked value = "1"/>
+	<nextlevel value = "2"/>
+	<name value = "First"/>
+	<multiplier value = "1"/>
+	<trash>
+		<name value = "banana"/>
+		<name value = "paper"/>
+		<name value = "plastic cup"/>
+		<name value = "battery"/>
+	</trash>
+</level>
