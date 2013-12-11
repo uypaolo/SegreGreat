@@ -1,7 +1,5 @@
 package ropamau.dlsu.segregreat;
 
-import java.io.ObjectOutputStream.PutField;
-
 import view.GameView;
 import android.app.Activity;
 import android.os.Bundle;

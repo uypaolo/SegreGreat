@@ -1,15 +1,11 @@
 package File;
 
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.input.SAXBuilder;
-import org.jdom2.output.Format;
-import org.jdom2.output.XMLOutputter;
-
 import view.GameView;
 import android.content.res.AssetManager;
 
@@ -34,7 +30,7 @@ public class XMLReader {
 		try {
 			InputStream is = assetManager.open(location);
 			SAXBuilder builder = new SAXBuilder();
-				Document document = (Document) builder.build(is);
+				Document document = builder.build(is);
 				rootElement = document.getRootElement();
 				/*for(Element tokenElement: tokenElements){
 					String name = tokenElement.getAttributeValue("name");

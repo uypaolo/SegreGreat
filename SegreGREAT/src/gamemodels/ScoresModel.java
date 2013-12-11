@@ -1,13 +1,6 @@
 package gamemodels;
 
 import java.util.ArrayList;
-import java.util.List;
-
-import org.jdom2.Element;
-
-import view.GameView;
-import File.XMLReader;
-import android.content.res.AssetManager;
 
 public class ScoresModel {
 	

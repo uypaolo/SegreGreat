@@ -62,7 +62,7 @@ public class TrashObject {
 			y+=(ySpeed*multiplier);
 		}
 		else{
-			gameView.score-=2;
+			GameView.score-=2;
 			this.done = true;
 		}
 	}

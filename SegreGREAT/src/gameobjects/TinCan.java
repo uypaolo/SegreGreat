@@ -1,7 +1,6 @@
 package gameobjects;
 
 import view.GameView;
-import android.graphics.Bitmap;
 
 public class TinCan extends TrashObject{
 	private boolean crushed = false;

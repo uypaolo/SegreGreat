@@ -1,6 +1,5 @@
 package gameobjects;
 
-import view.GameView;
 import android.graphics.Bitmap;
 
 public class ButtonObject {

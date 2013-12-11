@@ -100,10 +100,10 @@ public class TrashListModel {
 		for(TrashObject t: this.trashList){
 			if(t.getName().equals(name)){
 				if(name.equalsIgnoreCase("tin can")){
-					to = (TinCan)t;
+					to = t;
 				}
 				else if(name.equalsIgnoreCase("plastic cup")){
-					to = (PlasticCup)t;
+					to = t;
 				}
 				else{
 					to = t;

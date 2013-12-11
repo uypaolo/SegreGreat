@@ -56,7 +56,7 @@ public class GameView extends SurfaceView{
 		
 		limit = 60000;
 		
-		this.v = (Vibrator) srcActivity.getSystemService(Context.VIBRATOR_SERVICE);
+		GameView.v = (Vibrator) srcActivity.getSystemService(Context.VIBRATOR_SERVICE);
 		
 		holder = getHolder();
 		holder.addCallback(new Callback(){
