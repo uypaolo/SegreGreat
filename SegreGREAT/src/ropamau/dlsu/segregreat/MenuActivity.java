@@ -11,7 +11,6 @@ import android.widget.ImageView;
 public class MenuActivity extends Activity {
 	
 	private ImageView playButton;
-	private ImageView settingsButton;
 	private ImageView exitButton;
 	
 	@Override
@@ -20,7 +19,6 @@ public class MenuActivity extends Activity {
 		setContentView(R.layout.activity_menu);
 		
 		playButton = (ImageView) findViewById(R.id.play);
-		settingsButton = (ImageView) findViewById(R.id.settings);
 		exitButton = (ImageView) findViewById(R.id.exit);
 		
 		playButton.setOnClickListener(new OnClickListener(){
@@ -29,17 +27,6 @@ public class MenuActivity extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent(MenuActivity.this, LevelSelectActivity.class);
-				startActivity(intent);
-			}
-			
-		});
-		
-		settingsButton.setOnClickListener(new OnClickListener(){
-
-			@Override
-			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
-				Intent intent = new Intent(MenuActivity.this, SettingsActivity.class);
 				startActivity(intent);
 			}
 			

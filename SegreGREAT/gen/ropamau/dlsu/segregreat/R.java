@@ -89,9 +89,9 @@ public final class R {
         public static final int wall=0x7f020041;
     }
     public static final class id {
-        public static final int action_settings=0x7f080012;
+        public static final int action_settings=0x7f080011;
         public static final int bioBin=0x7f080003;
-        public static final int exit=0x7f08000f;
+        public static final int exit=0x7f08000e;
         public static final int home=0x7f080005;
         public static final int hw1=0x7f08000a;
         public static final int hw2=0x7f08000b;
@@ -102,11 +102,10 @@ public final class R {
         public static final int next_level=0x7f080004;
         public static final int nonbioBin=0x7f080000;
         public static final int pauseButton=0x7f080001;
-        public static final int play=0x7f08000e;
+        public static final int play=0x7f08000f;
         public static final int recyclableBin=0x7f080002;
         public static final int repeat=0x7f080006;
-        public static final int settings=0x7f080010;
-        public static final int splashScreen=0x7f080011;
+        public static final int splashScreen=0x7f080010;
         public static final int title=0x7f08000d;
     }
     public static final class layout {
